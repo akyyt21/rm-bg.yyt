@@ -43,6 +43,8 @@
 
 ## <a id="why"></a>🕒 Kenapa RM-BG?
 
+Hapus background gambar dan hilangkan watermark Gemini / NotebookLM secara lokal di browser Anda. Cocok untuk merapikan aset hasil AI, membuat gambar transparan, atau memisahkan objek produk. Berjalan sepenuhnya di perangkat Anda — gambar tidak pernah di-upload ke server.
+
 |                              |                                                              |
 | ----------------------------- | ------------------------------------------------------------ |
 | ✅ **Hapus Background**       | Model ISNet berjalan lokal langsung di browser Anda |

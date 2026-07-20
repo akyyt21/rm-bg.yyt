@@ -43,6 +43,8 @@
 
 ## <a id="why"></a>🕒 Why RM-BG?
 
+Remove image background and strip Gemini / NotebookLM watermarks locally in your browser. Perfect for cleaning up AI-generated assets, creating transparent graphics, or isolating products. Works completely on-device — no images are ever uploaded to a server.
+
 |                              |                                                              |
 | ----------------------------- | ------------------------------------------------------------ |
 | ✅ **Background Removal**    | On-device ISNet model runs locally in your browser |
