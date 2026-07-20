@@ -103,3 +103,7 @@ Jika Anda merasa project ini bermanfaat, mohon pertimbangkan untuk memberikan тн
 ## <a id="license"></a>Lisensi
 
 MIT - lihat <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE">LICENSE</a>.
+
+<p align="center">
+  <sub>Dibuat dengan dedikasi sebagai project ke-20 dari 50 Projects Challenge oleh **@Curzyori**</sub>
+</p>

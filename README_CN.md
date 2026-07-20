@@ -103,3 +103,7 @@ npm run preview
 ## <a id="license"></a>许可证
 
 MIT - 详见 <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE">LICENSE</a>。
+
+<p align="center">
+  <sub>作为 50 Projects Challenge 的第 20 个项目，由 **@Curzyori** 用心打造</sub>
+</p>

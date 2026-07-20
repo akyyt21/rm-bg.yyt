@@ -103,3 +103,7 @@ If you find this project useful, please consider giving it a ⭐ Star or 🍴 Fo
 ## <a id="license"></a>License
 
 MIT - see <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE">LICENSE</a>.
+
+<p align="center">
+  <sub>Built with passion as the 20th project of the 50 Projects Challenge by **@Curzyori**</sub>
+</p>

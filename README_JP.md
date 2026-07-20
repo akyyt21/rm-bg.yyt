@@ -103,3 +103,7 @@ npm run preview
 ## <a id="license"></a>ライセンス
 
 MIT - <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE">LICENSE</a> を参照。
+
+<p align="center">
+  <sub>50 Projects Challenge の20番目のプロジェクトとして、**@Curzyori** が情熱を込めて開発</sub>
+</p>
