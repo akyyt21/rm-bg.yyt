@@ -3,19 +3,26 @@
 <p align="center"><img src="images/logo.png" width="120" alt="RM-BG Logo" /></p>
 
 <h1 align="center">RM-BG + Watermark</h1>
-
-<p align="center">Remove photo background and strip Gemini / NotebookLM watermarks - 100% in your browser, free.</p>
-
 <p align="center">
-  <a href="https://github.com/Curzyori/rm-bg"><img src="https://img.shields.io/github/stars/Curzyori/rm-bg?style=flat&label=Stars" alt="Stars" /></a>
-  <a href="https://github.com/Curzyori/rm-bg/network/members"><img src="https://img.shields.io/github/forks/Curzyori/rm-bg?style=flat&label=Forks" alt="Forks" /></a>
-  <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Curzyori/rm-bg?style=flat&label=License" alt="License" /></a>
-  <img src="https://img.shields.io/badge/platform-web-blue?style=flat&label=Platform" alt="Platform" />
+  <strong>Web Utility to Remove Background & Strip AI Watermarks</strong>
 </p>
 
 <p align="center">
+  <a href="https://rm-bg.curzy.dev/"><strong>🌐 Live Website</strong></a>
+</p>
+
+<div align="center">
+
+  <a href="https://github.com/Curzyori/rm-bg"><img src="https://img.shields.io/github/stars/Curzyori/rm-bg?style=for-the-badge&color=374151" alt="Stars" /></a>
+  <a href="https://github.com/Curzyori/rm-bg/network/members"><img src="https://img.shields.io/github/forks/Curzyori/rm-bg?style=for-the-badge&color=374151" alt="Forks" /></a>
+  <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Curzyori/rm-bg?style=for-the-badge&color=374151" alt="License" /></a>
+  <img src="https://img.shields.io/badge/platform-web-blue?style=for-the-badge" alt="Platform" />
+
+</div>
+
+<p align="center">
   <a href="#why">Why</a> ·
-  <a href="#key-features">Key Features</a> ·
+  <a href="#key-features">Features</a> ·
   <a href="#tech-stack">Tech Stack</a> ·
   <a href="#quick-start">Quick Start</a> ·
   <a href="#installation">Installation</a> ·
@@ -24,23 +31,36 @@
   <a href="#license">License</a>
 </p>
 
-<p align="center">🌐 Language: <strong>🇺🇸 EN</strong> · <a href="README_ID.md">🇮🇩 ID</a> · <a href="README_CN.md">🇨🇳 CN</a> · <a href="README_JP.md">🇯🇵 JP</a></p>
+<p align="center">
+  🌐 In 4+ languages —
+  <a href="README.md"><b>🇺🇸 EN</b></a> ·
+  <a href="README_ID.md">🇮🇩 ID</a> ·
+  <a href="README_CN.md">🇨🇳 CN</a> ·
+  <a href="README_JP.md">🇯🇵 JP</a>
+</p>
 
 ---
 
-## <a id="why"></a>Why
+## <a id="why"></a>🕒 Why RM-BG?
 
-AI image tools (Gemini, NotebookLM) stamp watermarks on exported images. And sometimes you just want a clean cutout with no background. This tool does both locally, in one click, with zero uploads and zero cost.
+|                              |                                                              |
+| ----------------------------- | ------------------------------------------------------------ |
+| ✅ **Background Removal**    | On-device ISNet model runs locally in your browser |
+| ✅ **Gemini Watermark**       | Strips visible AI watermarks using canvas extraction |
+| ✅ **NotebookLM Watermark**   | Separate support for NotebookLM image export format |
+| ✅ **100% Client-Side**       | Zero servers, zero uploads — absolute privacy |
+| ✅ **Fully Free & Unlimited** | No credits, no accounts, no limits |
 
-## <a id="key-features"></a>Key Features
+## <a id="key-features"></a>🎯 Key Features
 
-- **Background removal** - on-device ISNet model, no server.
-- **Gemini watermark removal** - strips the AI watermark layer.
-- **NotebookLM watermark removal** - separate variant supported.
-- **Fully client-side** - your image never leaves the browser.
-- **Multilingual UI** - EN / ID / CN / JP with one-click switch.
-- **Dark / light theme** - opt-in toggle, persisted.
-- **Free, no account, no limits.**
+| Feature | Status | Description |
+| :--- | :---: | :--- |
+| **Background Removal** | ✅ | Standard background cutout via ISNet model |
+| **Gemini Watermark** | ✅ | Strip SynthID watermark from Gemini exports |
+| **NotebookLM Watermark** | ✅ | Strip footer watermark from NotebookLM exports |
+| **100% Client-Side** | ✅ | Processing happens in-page, no network required |
+| **Multi-Language UI** | ✅ | EN, ID, CN, JP with one-click selector |
+| **Dark/Light Theme** | ✅ | Persistent theme switcher |
 
 ## <a id="tech-stack"></a>Tech Stack
 

@@ -3,44 +3,64 @@
 <p align="center"><img src="images/logo.png" width="120" alt="RM-BG Logo" /></p>
 
 <h1 align="center">RM-BG + Watermark</h1>
-
-<p align="center">写真の背景削除と Gemini / NotebookLM 透かし除去 - すべてブラウザ内で、無料。</p>
+<p align="center">
+  <strong>Web Utility to Remove Background & Strip AI Watermarks</strong>
+</p>
 
 <p align="center">
-  <a href="https://github.com/Curzyori/rm-bg"><img src="https://img.shields.io/github/stars/Curzyori/rm-bg?style=flat&label=Stars" alt="Stars" /></a>
-  <a href="https://github.com/Curzyori/rm-bg/network/members"><img src="https://img.shields.io/github/forks/Curzyori/rm-bg?style=flat&label=Forks" alt="Forks" /></a>
-  <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Curzyori/rm-bg?style=flat&label=License" alt="License" /></a>
-  <img src="https://img.shields.io/badge/platform-web-blue?style=flat&label=Platform" alt="Platform" />
+  <a href="https://rm-bg.curzy.dev/"><strong>🌐 Live Website</strong></a>
 </p>
+
+<div align="center">
+
+  <a href="https://github.com/Curzyori/rm-bg"><img src="https://img.shields.io/github/stars/Curzyori/rm-bg?style=for-the-badge&color=374151" alt="Stars" /></a>
+  <a href="https://github.com/Curzyori/rm-bg/network/members"><img src="https://img.shields.io/github/forks/Curzyori/rm-bg?style=for-the-badge&color=374151" alt="Forks" /></a>
+  <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Curzyori/rm-bg?style=for-the-badge&color=374151" alt="License" /></a>
+  <img src="https://img.shields.io/badge/platform-web-blue?style=for-the-badge" alt="Platform" />
+
+</div>
 
 <p align="center">
   <a href="#why">Why</a> ·
-  <a href="#key-features">機能</a> ·
-  <a href="#tech-stack">技術スタック</a> ·
-  <a href="#quick-start">クイックスタート</a> ·
-  <a href="#installation">インストール</a> ·
-  <a href="#preview">プレビュー</a> ·
-  <a href="#support">サポート</a> ·
-  <a href="#license">ライセンス</a>
+  <a href="#key-features">Features</a> ·
+  <a href="#tech-stack">Tech Stack</a> ·
+  <a href="#quick-start">Quick Start</a> ·
+  <a href="#installation">Installation</a> ·
+  <a href="#preview">Preview</a> ·
+  <a href="#support">Support</a> ·
+  <a href="#license">License</a>
 </p>
 
-<p align="center">🌐 言語: <a href="README.md">🇺🇸 EN</a> · <a href="README_ID.md">🇮🇩 ID</a> · <a href="README_CN.md">🇨🇳 CN</a> · <strong>🇯🇵 JP</strong></p>
+<p align="center">
+  🌐 4+ 言語に対応 —
+  <a href="README.md">🇺🇸 EN</a> ·
+  <a href="README_ID.md">🇮🇩 ID</a> ·
+  <a href="README_CN.md">🇨🇳 CN</a> ·
+  <a href="README_JP.md"><b>🇯🇵 JP</b></a>
+</p>
 
 ---
 
-## <a id="why"></a>Why
+## <a id="why"></a>🕒 なぜ RM-BG なのか？
 
-AI 画像ツール（Gemini、NotebookLM）は書き出した画像に透かしを押します。また、背景のない綺麗な切り抜きが欲しいだけの場合も。本ツールはアップロード不要・無料で、この両方をローカルでワンクリック処理します。
+|                              |                                                              |
+| ----------------------------- | ------------------------------------------------------------ |
+| ✅ **背景削除**              | オンデバイスの ISNet モデルがブラウザ上で直接動作 |
+| ✅ **Gemini 透かし**          | canvas 抽出技術を使用して AI 透かしを除去 |
+| ✅ **NotebookLM 透かし**      | NotebookLM 画像エクスポート形式の個別サポート |
+| ✅ **100% クライアント側**     | サーバ不要、アップロード不要 — 完全なプライバシー |
+| ✅ **完全無料・無制限**       | クレジット不要、アカウント不要、制限なし |
 
-## <a id="key-features"></a>主な機能
+## <a id="key-features"></a>🎯 主な機能
 
-- **背景削除** - オンデバイスの ISNet モデル、サーバ不要。
-- **Gemini 透かし除去** - AI 透かしレイヤーを除去。
-- **NotebookLM 透かし除去** - 別バリアントに対応。
-- **完全クライアント側** - 画像がブラウザを離れることはありません。
-- **多言語 UI** - EN / ID / CN / JP をワンクリック切替。
-- **ダーク / ライトテーマ** - 選択式トグル、保存されます。
-- **無料、アカウント不要、制限なし。**
+| 機能 | ステータス | 説明 |
+| :--- | :---: | :--- |
+| **背景削除** | ✅ | ISNet モデルによる標準的な背景切り抜き |
+| **Gemini 透かし** | ✅ | Gemini エクスポートから SynthID 透かしを除去 |
+| **NotebookLM 透かし** | ✅ | NotebookLM エクスポートからフッター透かしを除去 |
+| **100% クライアント側** | ✅ | 処理はページ内で行われ、通信は不要 |
+| **多言語 UI** | ✅ | ワンクリックで EN, ID, CN, JP を切り替え |
+| **ダーク/ライトテーマ** | ✅ | 保存可能なテーマ切り替えトグル |
 
 ## <a id="tech-stack"></a>技術スタック
 

@@ -3,44 +3,64 @@
 <p align="center"><img src="images/logo.png" width="120" alt="RM-BG Logo" /></p>
 
 <h1 align="center">RM-BG + Watermark</h1>
-
-<p align="center">去除照片背景并清除 Gemini / NotebookLM 水印 - 完全在浏览器中运行，免费。</p>
+<p align="center">
+  <strong>Web Utility to Remove Background & Strip AI Watermarks</strong>
+</p>
 
 <p align="center">
-  <a href="https://github.com/Curzyori/rm-bg"><img src="https://img.shields.io/github/stars/Curzyori/rm-bg?style=flat&label=Stars" alt="Stars" /></a>
-  <a href="https://github.com/Curzyori/rm-bg/network/members"><img src="https://img.shields.io/github/forks/Curzyori/rm-bg?style=flat&label=Forks" alt="Forks" /></a>
-  <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Curzyori/rm-bg?style=flat&label=License" alt="License" /></a>
-  <img src="https://img.shields.io/badge/platform-web-blue?style=flat&label=Platform" alt="Platform" />
+  <a href="https://rm-bg.curzy.dev/"><strong>🌐 Live Website</strong></a>
 </p>
+
+<div align="center">
+
+  <a href="https://github.com/Curzyori/rm-bg"><img src="https://img.shields.io/github/stars/Curzyori/rm-bg?style=for-the-badge&color=374151" alt="Stars" /></a>
+  <a href="https://github.com/Curzyori/rm-bg/network/members"><img src="https://img.shields.io/github/forks/Curzyori/rm-bg?style=for-the-badge&color=374151" alt="Forks" /></a>
+  <a href="https://github.com/Curzyori/rm-bg/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Curzyori/rm-bg?style=for-the-badge&color=374151" alt="License" /></a>
+  <img src="https://img.shields.io/badge/platform-web-blue?style=for-the-badge" alt="Platform" />
+
+</div>
 
 <p align="center">
   <a href="#why">Why</a> ·
-  <a href="#key-features">功能</a> ·
-  <a href="#tech-stack">技术栈</a> ·
-  <a href="#quick-start">快速开始</a> ·
-  <a href="#installation">安装</a> ·
-  <a href="#preview">预览</a> ·
-  <a href="#support">支持</a> ·
-  <a href="#license">许可证</a>
+  <a href="#key-features">Features</a> ·
+  <a href="#tech-stack">Tech Stack</a> ·
+  <a href="#quick-start">Quick Start</a> ·
+  <a href="#installation">Installation</a> ·
+  <a href="#preview">Preview</a> ·
+  <a href="#support">Support</a> ·
+  <a href="#license">License</a>
 </p>
 
-<p align="center">🌐 语言: <a href="README.md">🇺🇸 EN</a> · <a href="README_ID.md">🇮🇩 ID</a> · <strong>🇨🇳 CN</strong> · <a href="README_JP.md">🇯🇵 JP</a></p>
+<p align="center">
+  🌐 支持 4+ 种语言 —
+  <a href="README.md">🇺🇸 EN</a> ·
+  <a href="README_ID.md">🇮🇩 ID</a> ·
+  <a href="README_CN.md"><b>🇨🇳 CN</b></a> ·
+  <a href="README_JP.md">🇯🇵 JP</a>
+</p>
 
 ---
 
-## <a id="why"></a>Why
+## <a id="why"></a>🕒 为什么选择 RM-BG？
 
-AI 图像工具（Gemini、NotebookLM）会在导出的图片上添加水印。有时你只是想要一张没有背景的干净图片。本工具在本地一次性完成这两件事，无需上传，完全免费。
+|                              |                                                              |
+| ----------------------------- | ------------------------------------------------------------ |
+| ✅ **背景去除**              | 本地运行的 ISNet 模型，直接在浏览器中处理 |
+| ✅ **Gemini 水印**           | 使用 canvas 提取技术去除 AI 水印 |
+| ✅ **NotebookLM 水印**       | 独立支持 NotebookLM 导出的图像格式 |
+| ✅ **100% 客户端运行**       | 无服务器，无需上传 — 绝对隐私安全 |
+| ✅ **完全免费且无限制**      | 无需额度，无需账号，无任何限制 |
 
-## <a id="key-features"></a>主要功能
+## <a id="key-features"></a>🎯 主要功能
 
-- **背景去除** - 本地 ISNet 模型，无需服务器。
-- **Gemini 水印去除** - 清除 AI 水印图层。
-- **NotebookLM 水印去除** - 支持独立变体。
-- **完全客户端** - 图片永远不会离开浏览器。
-- **多语言界面** - EN / ID / CN / JP，一键切换。
-- **深色 / 浅色主题** - 可选切换，自动保存。
-- **免费，无需账号，无限制。**
+| 功能 | 状态 | 描述 |
+| :--- | :---: | :--- |
+| **背景去除** | ✅ | 使用 ISNet 模型进行标准的背景抠图 |
+| **Gemini 水印** | ✅ | 清除 Gemini 导出的 SynthID 水印 |
+| **NotebookLM 水印** | ✅ | 清除 NotebookLM 导出的页脚水印 |
+| **100% 客户端运行** | ✅ | 所有处理都在页面内进行，无需网络传输 |
+| **多语言界面** | ✅ | 支持 EN、ID、CN、JP 一键切换 |
+| **深色/浅色主题** | ✅ | 支持自动保存的主题切换 |
 
 ## <a id="tech-stack"></a>技术栈
 
