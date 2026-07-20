@@ -114,8 +114,6 @@ Output berupa folder statis `dist/` yang bisa di-deploy ke host statis mana pun 
 
 Jika Anda merasa project ini bermanfaat, mohon pertimbangkan untuk memberikan ⭐ Star atau melakukan 🍴 Fork untuk menunjukkan dukungan dan membuat saya lebih semangat lagi membuat project open-source yang menarik ke depannya! Setiap star dan fork sangat berharga bagi developer.
 
-<a href="https://donate.curzy.dev/">Dukung project ini dengan traktir kopi! 💝</a>
-
 <a href="https://donate.curzy.dev/">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" />
 </a>
